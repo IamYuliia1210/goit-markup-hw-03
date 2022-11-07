@@ -69,27 +69,27 @@
         <div class="container">
           <h2 class="features-title visually-hidden">Ocoливості</h2>
           <ul class="features-list">
-            <li>
+            <li class="feature-item">
               <h3 class="feature-list-title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="feature-list-text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li>
+            <li class="feature-item">
               <h3 class="feature-list-title">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="feature-list-text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li>
+            <li class="feature-item">
               <h3 class="feature-list-title">ПЛАНУВАННЯ</h3>
               <p class="feature-list-text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li>
+            <li class="feature-item">
               <h3 class="feature-list-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p class="feature-list-text">
                 Значимість цих проблем настільки очевидна, що реалізація
@@ -104,17 +104,17 @@
         <div class="container">
           <h2 class="work-title">Чим ми займаємося</h2>
           <ul class="work-list">
-            <li>
+            <li class="work-item">
               <img
                 src="./images/box1.jpg"
                 alt="десктопні додатки"
                 width="370"
               />
             </li>
-            <li>
+            <li class="work-item">
               <img src="./images/box2.jpg" alt="мобільні додатки" width="370" />
             </li>
-            <li>
+            <li class="work-item">
               <img
                 src="./images/box3.jpg"
                 alt="дизайнерські рішення"
@@ -133,39 +133,51 @@
           <ul class="team-list">
             <li class="team-item">
               <img
+                class="team-image"
                 src="./images/team_member/Ihor.jpg"
                 alt="фото Ігора Дем'яненко"
                 width="270"
               />
-              <h3 class="team-list-title">Ігор Дем'яненко</h3>
-              <p class="team-list-text" lang="en">Product Designer</p>
+              <div class="team-card">
+                <h3 class="team-list-title">Ігор Дем'яненко</h3>
+                <p class="team-list-text" lang="en">Product Designer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
+                class="team-image"
                 src="./images/team_member/Olha.jpg"
                 alt="фото Ольги Рєпіної"
                 width="270"
               />
-              <h3 class="team-list-title">Ольга Рєпіна</h3>
-              <p class="team-list-text" lang="en">Frontend Developer</p>
+              <div class="team-card">
+                <h3 class="team-list-title">Ольга Рєпіна</h3>
+                <p class="team-list-text" lang="en">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
+                class="team-image"
                 src="./images/team_member/Mikola.jpg"
                 alt="фото Миколи Тарасова"
                 width="270"
               />
-              <h3 class="team-list-title">Микола Тарасов</h3>
-              <p class="team-list-text" lang="en">Marketing</p>
+              <div class="team-card">
+                <h3 class="team-list-title">Микола Тарасов</h3>
+                <p class="team-list-text" lang="en">Marketing</p>
+              </div>
             </li>
             <li class="team-item">
               <img
+                class="team-image"
                 src="./images/team_member/Michael.jpg"
                 alt="фото Михайло Єрмакова"
                 width="270"
               />
-              <h3 class="team-list-title">Михайло Єрмаков</h3>
-              <p class="team-list-text" lang="en">UI Designer</p>
+              <div class="team-card">
+                <h3 class="team-list-title">Михайло Єрмаков</h3>
+                <p class="team-list-text" lang="en">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -175,33 +187,34 @@
     <!--Футер-->
     <footer class="footer">
       <div class="container">
-        <a class="footer-logo" href="/index.html" lang="en">
-          <span class="web">Web</span>
-          Studio
-        </a>
-        <address>
-          <ul class="address-list">
-            <li>
-              <a
-                class="address-link map"
-                href="https://goo.gl/maps/32chpTAH5WMxKWA97"
-                target="_blank"
-              >
-                м. Київ, пр-т Лесі Українки, 26
-              </a>
-            </li>
-            <li>
-              <a class="address-link text" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a class="address-link text" href="tel.:+380961111111"
-                >+38 096 111 11 11</a
-              >
-            </li>
-          </ul>
-        </address>
+        <div class="footer-nav">
+          <a class="footer-logo" href="/index.html" lang="en">
+            <span class="logo">Web</span>Studio
+          </a>
+          <address>
+            <ul class="address-list">
+              <li class="address-item">
+                <a
+                  class="address-link map"
+                  href="https://goo.gl/maps/32chpTAH5WMxKWA97"
+                  target="_blank"
+                >
+                  м. Київ, пр-т Лесі Українки, 26
+                </a>
+              </li>
+              <li class="address-item">
+                <a class="address-link text" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="address-item">
+                <a class="address-link text" href="tel.:+380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </footer>
   </body>
